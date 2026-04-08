@@ -5,6 +5,7 @@
 }
 body {
     margin: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav > ul {
     display: flex;
@@ -35,8 +36,9 @@ main.projects {
 h1, h2, h3, h4, h5, h6 {
     font-family: Roboto;
 }
+
 p {
-    font-family: sans-serif;
+    
 }
 
 .resume li {
