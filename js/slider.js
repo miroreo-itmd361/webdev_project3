@@ -27,10 +27,12 @@ const nextIndex = () => {
 }
 const nextImage = () => {
     currentImage = nextIndex();
+    document.getElementById("slider").value = currentImage;
     hydrate();
 }
 const prevImage = () => {
     currentImage = previousIndex();
+    document.getElementById("slider").value = currentImage;
     hydrate();
 }
 const setImage = (num) => {

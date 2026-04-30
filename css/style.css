@@ -73,3 +73,8 @@ img.carousel-item {
     place-self: center;
     aspect-ratio:  auto;
 }
+
+#map {
+  height: 48rem;
+  max-width: 48rem;
+}
